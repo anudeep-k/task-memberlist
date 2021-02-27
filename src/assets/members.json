@@ -1,0 +1,4 @@
+[  
+    {"id":1,"name":"Ram", "age":23,"email":"Ram@gmail.com" ,"phone":1235900,"company":"ABC","eventId":[100,101]},  
+    {"id":2,"name":"Bob","age":24, "email":"bob32@gmail.com" ,"phone":1235900,"company":"XYZ","eventId":[101]}  
+]  
