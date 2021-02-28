@@ -1,11 +1,10 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Members from "./components/Members";
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { getMembers, deleteMember } from "./redux/actions/members";
-import { MDBDataTable, MDBBtn, MDBInput } from "mdbreact";
+import { getMembers } from "./redux/actions/members";
+
 import { getEvents } from "./redux/actions/events";
 import Events from "./components/Events";
 function App() {

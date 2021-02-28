@@ -11,7 +11,7 @@ dispatch(action)
 
 export const deleteMember= (id)=>async (dispatch)=>{
 
-    const members =await data;
+
 console.log(id)
 const action={type:'DELETE',payload:id}
 dispatch(action)
